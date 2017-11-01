@@ -1,0 +1,20 @@
+zuul:  
+  routes:
+    MyApp:
+      path: /myapp/**
+      serviceId: MyApp
+	  stripPrefix: false
+    MyApp2:
+      path: /myapp2/**
+      serviceId: MyApp
+	  stripPrefix: false
+MyApp:
+  ribbon:
+    ServerListRefreshInterval: 1000
+    ConnectTimeout: 20000
+    ReadTimeout: 20000
+MyApp2:
+  ribbon:
+    ServerListRefreshInterval: 1000
+    ConnectTimeout: 20000
+    ReadTimeout: 20000	

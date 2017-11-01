@@ -1,0 +1,8 @@
+turbine:
+  aggregator:
+    clusterConfig: MYAPP2
+  appConfig: MYAPP2,MYAPP
+
+test:
+  app:
+    name: config server default app
