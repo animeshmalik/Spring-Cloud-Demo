@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    config:
+      server:
+        svn:
+          uri: http://USNY10242L01087.nam.nsroot.net/svn/configrepo/config
+          username: animesh
+          password: animesh
+          search-paths:
+            - M*            
+          default-label: trunk
+  profiles:
+    active: subversion
+
+logging:
+  levels:
+    org.springframework.boot.env.PropertySourcesLoader: TRACE
+    org.springframework.cloud.config.server: DEBUG
