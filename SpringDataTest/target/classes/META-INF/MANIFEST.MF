@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringDataTest
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Animesh
+Implementation-Vendor-Id: org.test
+Build-Jdk: 1.8.0_141
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/SpringDataTest
+Created-By: Maven Integration for Eclipse
+
